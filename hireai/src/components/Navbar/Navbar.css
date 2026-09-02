@@ -1,0 +1,78 @@
+.navbar-layout{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:16px 24px;
+    border-bottom:1px solid #E5E7EB;
+    height:72px;
+}
+.search-section{
+    flex:1;
+}
+.search-bar{
+    width:100%;
+    max-width:320px;
+    padding:0 12px;
+    height:40px;
+    border-radius:10px;
+    display:flex;
+    align-items:center;
+    gap:8px;
+    background-color:#F9FAFB;
+    border: 1px solid #E5E7EB;
+}
+.search-bar input{
+    flex:1;
+    font-size:14px;
+    font-weight:400;
+    background-color:transparent;
+    border:none;
+    outline:none;
+}
+.right-section{
+    display:flex;
+    align-items:center;
+    gap:16px;
+    padding:10px 10px;
+    background-color:#FFFFFF;
+
+}
+.profile-button{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    border:none;
+    background-color:#FFFFFF;
+}
+.user-details{
+    display:flex;
+    align-items:center;
+    gap:8px;
+}
+.user-info{
+    display:flex;
+    flex-direction:column;
+    gap:4px;
+}
+.user-name{
+    font-size:14px;
+    font-weight:500;
+    color:#111827;
+}
+.user-role{
+    font-size:12px;
+    font-weight:400;
+    color:#6B7280;
+}
+.notification-button{
+    width:40px;
+    height:40px;
+    border-radius:8px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:#FFFFFF;
+    border:1px solid #E5E7EB;
+    cursor:pointer;
+    color:#E2A610;
+}

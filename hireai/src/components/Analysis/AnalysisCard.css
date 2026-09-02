@@ -1,0 +1,26 @@
+.analysis-card{
+    display:flex;
+    flex-direction:column;
+    gap:16px;
+    padding:24px;
+    height:232px;
+    width:334.67px;
+    background-color:#FFFFFF;
+    border-radius:16px;
+    border:1px solid #E5E7EB;
+}
+.card-header{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.card-header h3{
+    font-size:16px;
+    font-weight:600;
+    color:#111827;
+}
+.card-content{
+    display:flex;
+    flex-direction:column;
+    gap:16px;
+}

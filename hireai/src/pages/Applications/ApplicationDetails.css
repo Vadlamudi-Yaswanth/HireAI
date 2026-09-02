@@ -1,0 +1,239 @@
+.application-details-page{
+    padding:32px;
+    display:flex;
+    flex-direction:column;
+    gap:24px;
+}
+.page-header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.page-header-content{
+    display:flex;
+    flex-direction:column;
+    gap:4px;
+}
+.page-header-content h1{
+    font-size:32px;
+    font-weight:700;
+    color:#111827;
+}
+.page-description{
+    font-size:14px;
+    font-weight:400;
+    color:#6B7280;
+}
+.upload-resume-button{
+    font-size:14px;
+    background-color:#2563EB;
+    border:none;
+    color:#FFFFFF;
+    padding-left:20px;
+    padding-right:20px;
+    border-radius:10px;
+    height:44px;
+}
+.resume-upload-section{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:32px;
+    gap:16px;
+    border-radius: 16px;
+    background-color:#FFFFFF;
+    border:1px solid #E5E7EB;
+    height:220px;
+}
+.upload-icon{
+   color:#9CA3AF;
+}
+.upload-title{
+    font-size:20px;
+    font-weight:600;
+    font-family: "Inter", sans-serif;
+    color:#111827;
+}
+.upload-description{
+    font-size:14px;
+    font-weight:400;
+    color:#6B7280;
+}
+.browse-files-button{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    min-height:44px;
+    padding:10px 20px;
+
+    background:#2563EB;
+    color:#FFFFFF;
+
+    border:none;
+    border-radius:10px;
+    font-size:14px;
+    font-weight:600;
+}
+.resume-description{
+    font-size:12px;
+    font-weight:400;
+    color:#9CA3AF;
+}
+.analysis-overview{
+    display:flex;
+    flex-direction:column;
+    gap:16px;
+}
+.analysis-overview h2{
+    font-size:18px;
+    font-weight:600;
+    color:#111827;
+
+}
+.overview-cards{
+    display:flex;
+    gap:24px;
+}
+.resume-match-body{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+.match-score{
+    font-size:36px;
+    font-weight:700;
+    color:#16A34A;
+}
+.match-status{
+    font-size:16px;
+    font-weight:600;
+    color:#16A34A;
+}
+.progress-bar{
+    height:10px;
+    background-color:#E5E7EB;
+    border-radius:999px;
+    width:287px;
+}
+.progress-fill{
+    width: 264px;
+    height:8px;
+    background-color:#16A34A;
+    border-radius:999px;
+}
+.match-description{
+    font-size:13px;
+    font-weight:400;
+    color:#6B7280;
+}
+.skill-match-badge{
+    display:flex;
+    align-items: center;
+    font-size:14px;
+    font-weight:500;
+    gap: 8px;
+    width:111px;
+    padding:8px 16px;
+    background-color:#DBEAFE;
+    border-radius:999px;
+}
+.star-icon{
+    background-color:#FCEA2B;
+}
+.skill-alignment{
+    font-size:24px;
+    font-weight:700;
+    color:#111827;
+}
+.skill-description{
+   font-size:13px;
+   font-weight:500;
+   color:#6B7280;
+   width:163px;
+
+}
+.missing-skill-content{
+    display:flex;
+    flex-direction:column;
+    gap:32px;
+}
+.missing-skills{
+    display:flex;
+    gap:8px;
+    flex-wrap:wrap;
+}
+.skill-badge{
+    display:flex;
+    align-items:center;
+    border-radius:999px;
+    background-color:#FEE2E2;
+    padding:8px 14px;
+    font-size:16px;
+    font-weight:600;
+    color:#DC2626;
+}
+.skill-missing{
+    font-size:13px;
+    font-weight:500;
+    color:#6B7280;
+}
+.ai-recommendation{
+    gap:16px;
+    padding:24px;
+    display:flex;
+    flex-direction:column;
+    border-radius:16px;
+    background-color:#FFFFFF;
+    border: 1px solid #E5E7EB;
+}
+.recommendation-header{
+    display:flex;
+    flex-direction:column;
+    gap:4px;
+}
+.recommendation-header h2{
+    font-size:20px;
+    font-weight:700;
+    color:#111827;
+}
+.recommendation-subtitle{
+    font-size:14px;
+    font-weight:400;
+    color:#6B7280;
+}
+.recommendation-status{
+    display:flex;
+    align-items: center;
+    gap:8px;
+}
+.recommendation-status-icon{
+    color:#16A34A;
+}
+.recommendation-status-text{
+    font-size:18px;
+    font-weight:600;
+    color:#166534;
+}
+.recommendation-description{
+    font-size:14px;
+    font-weight:600;
+    line-height: 24px;
+    color:#374151;
+    max-width:487px;
+}
+.confidence-section{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.confidence-label{
+    font-size:13px;
+    font-weight:500;
+    color:#111827;
+}
+.confidence-score{
+    font-size:13px;
+    font-weight:700;
+    color:#111827;
+}

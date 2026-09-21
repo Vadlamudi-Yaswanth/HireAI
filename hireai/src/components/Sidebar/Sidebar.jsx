@@ -1,5 +1,6 @@
 import AIimg from "../../assets/Hire_ai.svg";
 import ProfileImg from "../../assets/Profile.svg";
+import { NavLink } from "react-router-dom";
 import "./Sidebar.css";
 import { LuLayoutDashboard, LuBriefcaseBusiness, LuUsers, LuFileSearch, LuCalendarCheck2, LuSettings } from "react-icons/lu";
 function Sidebar() {
@@ -9,15 +10,15 @@ function Sidebar() {
             <nav className="navigation-menu">
                 <div className="navigation-item">
                     <LuLayoutDashboard size={20} />
-                    <a className="navigation-content">Dashboard</a>
+                    <NavLink to="/dashboard">Dashboard</NavLink>
                 </div>
                 <div className="navigation-item">
                     <LuBriefcaseBusiness size={20} />
-                    <a className="navigation-content">Jobs</a>
+                    <NavLink to="/jobs/jobsPage">Jobs</NavLink>
                 </div>
                 <div className="navigation-item">
                     < LuUsers size={20} />
-                    <a className="navigation-content">Candidates</a>
+                    <NavLink to="/applications">Applications</NavLink>
                 </div>
                 <div className="navigation-item active">
                     <LuFileSearch size={20} />

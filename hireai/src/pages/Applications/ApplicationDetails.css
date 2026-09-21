@@ -237,3 +237,8 @@
     font-weight:700;
     color:#111827;
 }
+.evidence-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
